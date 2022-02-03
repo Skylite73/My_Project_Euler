@@ -8,7 +8,7 @@ except ModuleNotFoundError:
     import sys
     script_path = os.path.realpath(os.path.dirname(__name__))
     os.chdir(script_path)
-    sys.path.append("./Modules/")
+    sys.path.append("./Python-Debugging-Modules/")
     from timer import timer  # type: ignore
 from debugger import debug, debug_table  # type: ignore
 # from plotter import plotter  # type: ignore
